@@ -22,8 +22,15 @@ public class Entrada_Datos {
 			// si el metodo NO fuera estatico
 //			Entrada_Datos a = new Entrada_Datos();
 //			a.pedirDatos();
-
-			pedirDatos();
+			/*****************/
+			
+			// se trata lo lanzado aca para que continue el programa
+			try {
+				pedirDatos();
+			} catch (InputMismatchException e) {
+				// TODO: handle exception
+				System.out.println("No es un numero");
+			}
 		} else {
 			System.exit(0);
 		}
@@ -34,22 +41,16 @@ public class Entrada_Datos {
 	// lanza una excepcion para manejarla
 	public static void pedirDatos() throws InputMismatchException {
 
-		// se trata lo lanzado aca para que continue el programa
-		try {
-			Scanner entrada = new Scanner(System.in);
-			System.out.println("Nombre: ");
-			String nombre = entrada.nextLine();
+		Scanner entrada = new Scanner(System.in);
+		System.out.println("Nombre: ");
+		String nombre = entrada.nextLine();
 
-			System.out.println("Edad: ");
-			int edad = entrada.nextInt();
+		System.out.println("Edad: ");
+		int edad = entrada.nextInt();
 
-			System.out.println("Tu nombre es " + nombre + " y tu edad es " + edad + ", el año que viene tendras "
-					+ (edad + 1) + " años");
-			entrada.close();
-		} catch (InputMismatchException e) {
-			// TODO: handle exception
-			System.out.println("No es un numero");
-		}
+		System.out.println("Tu nombre es " + nombre + " y tu edad es " + edad + ", el año que viene tendras "
+				+ (edad + 1) + " años");
+		entrada.close();
 
 		System.out.println("fin");
 	}
