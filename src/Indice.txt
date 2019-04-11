@@ -5,3 +5,4 @@ Package excepciones_I:
 143: Excepciones II => Leer_Imagen.java
 144: Excepciones II => Entrada_Datos.java
 145: Excepciones IV => Entrada_Datos.java
+146: Excepciones V => Comprueba_Email
