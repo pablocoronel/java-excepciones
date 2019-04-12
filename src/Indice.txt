@@ -7,3 +7,4 @@ Package excepciones_I:
 145: Excepciones IV => Entrada_Datos.java
 146: Excepciones V => Comprueba_Email.java
 147: Excepciones VI => Comprueba_Email_2.java
+148: Excepciones VI => Varias_Excepciones.java
