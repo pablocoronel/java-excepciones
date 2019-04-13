@@ -10,3 +10,4 @@ Package excepciones_I:
 148: Excepciones VII => Varias_Excepciones.java
 149: Excepciones VIII => Areas_Peso.java
 150: Depurando con Eclipse. Debugging I => Aleatorios.java
+151: Depurando con Eclipse. Debugging II => Operaciones.java, Suma.java, Resta.java, Multiplica.java, Divide.java
